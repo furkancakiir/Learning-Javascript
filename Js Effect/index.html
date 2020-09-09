@@ -1,0 +1,125 @@
+<html>
+
+    <head>    
+        <title>Jquery</title>   
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+    </head>
+
+    <body>
+        
+        <p>Sıfırdan Web Developer Eğitimi</p>      
+     
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Toggle</button>
+        <button id="slideup">Slide Up</button>
+        <button id="slidedown">Slide Down</button>
+        <button id="slideToggle">SToggle</button>
+        <button id="fadein">fadein</button>
+        <button id="fadeout">fadeout</button>
+        <button id="fadeToggle">fadeToggle</button>
+        <button id="fadeTo">fadeTo</button>
+        
+        <script> 
+          
+            $(document).ready(function(){
+                
+                 $("#hide").click(function(){
+                          
+                        $("p").hide("slow");
+                        $("#hide").hide ();
+                       
+                 });
+                 $("#fadeToggle").click(function(){
+                          
+                          $("p").fadeToggle("slow");
+                          
+                         
+                   });
+
+                   $("#fadeToggle").click(function(){
+                          
+                          $("p").fadeTo("slow",0.7);
+                          
+                         
+                   });
+                 
+                 
+
+                 $("#slideToggle").click(function(){
+                          
+                          $("p").slideToggle("slow");
+                          
+                         
+                   });
+                   $("#fadein").click(function(){
+                          
+                          $("p").fadeIn("slow");
+                          
+                         
+                   });
+                   $("#fadeout").click(function(){
+                          
+                          $("p").fadeOut(1000,function(){
+
+                            alert("Paragraf gösterildi");
+                          });
+
+                          
+                         
+                   });
+                   
+
+
+                 
+                 $("#show").click(function(){
+                          
+                          $("p").show("p",0,1);
+                          $("#hide").show("p",0,1);
+                         
+                   });
+
+
+                   $("#toggle").click(function(){
+                          
+                          $("p").toggle("p",0,1);
+                         
+                   });
+
+                   $("#slideup").click(function(){
+                          
+                          $("p").slideUp("slow");
+                         
+                   });
+
+                   $("#slidedown").click(function(){
+                          
+                          $("p").slideDown(1000,function(){
+
+                            alert("Paragraf Gösterildi");     
+                            
+                            
+                          });
+
+                          
+
+                          
+                         
+                   });
+                        
+                   
+                   
+
+
+    
+                
+                
+            });
+            
+            
+        </script>
+        
+    </body>
+
+</html>

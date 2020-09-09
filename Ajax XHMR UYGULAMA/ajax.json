@@ -1,0 +1,35 @@
+[
+
+    {
+    "firstName":"Furkan",
+    "lastName":"Çakır",
+    "age":21,
+    "retired":false
+    },
+
+    {
+        "firstName":"Ahmet",
+        "lastName":"Çakır",
+        "age":25,
+        "retired":false
+    },
+     
+
+    {
+        "firstName":"Murat",
+        "lastName":"Çakır",
+        "age":85,
+        "retired":false
+    }
+
+
+
+
+
+
+
+
+
+
+
+]

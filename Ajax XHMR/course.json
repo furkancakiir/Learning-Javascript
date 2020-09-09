@@ -1,0 +1,11 @@
+
+
+{
+    "course":[
+        {"firstname":"Furkan","lastName":"Çakır","age":21,"retired":false},
+        {"firstname":"Ahmet","lastName":"Çakır","age":25},
+        {"firstname":"Mustafa","lastName":"Çakır","age":45},
+        {"firstname":"Gürkan","lastName":"Çakır","age":65}
+        
+    ]
+}
